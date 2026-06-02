@@ -6,16 +6,16 @@ load_dotenv()
 
 class Config:
     def __init__(self):
-        self.API_ID = int(getenv("API_ID", "17596251"))
-        self.API_HASH = getenv("API_HASH", "e58343b4c0193e293e391daf97603fcd")
+        self.API_ID = int(getenv("API_ID", "34708578"))
+        self.API_HASH = getenv("API_HASH", "d532e5b947d462f858077d614f31f22b")
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN", "6808170222:AAEN4RaxQGJMVFEcQwyaskvQ-qXdxY2p34A")
-        self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://bhulud30_db_user:bhulud30_db_user@cluster0.yzspcrl.mongodb.net/?appName=Cluster0")
+        self.BOT_TOKEN = getenv("BOT_TOKEN", "8724129434:AAHVtc0We-I8HupK59Uz6b04qz_d1p38nvg")
+        self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Jani_Sanatani_Power:RamRP@jani.elxnxrd.mongodb.net/?appName=Jani")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", "-1003809958673"))
-        self.OWNER_ID = int(getenv("OWNER_ID", "8458947967"))
+        self.LOGGER_ID = int(getenv("LOGGER_ID", "-1002654645615"))
+        self.OWNER_ID = int(getenv("OWNER_ID", "8092368726"))
         
-        self.SESSION1 = getenv("SESSION", "BQCZzqEAUikUU0qF6HUdl0ak3UBNyhdQ7tFKe0GRRrUUTT5c2EWUq-JI_E10vQZvc5LckyYCxXfBmjC6l7sFlRQTSKTVs0yQue2Y-4HH-GgVs3wDPctYZ2PHTq1LuBgqJ_WCOuPPvPRpTdCtUVecTDHAkCTobfWZDGRmQpEIuo3y8fFttnQ9G1nbQfQPbuyorqTKlyWudjwCd61OrKytYmI7D0eNwkfuSU0CqbIEbYyfoZvqBHH9XhU0jQ3FS99aLFBd6U8SnVN106MlIEDYTqH9JCNoDSMbplDZGmRCyQcxjoe7lJHlJAMbUXZc2HdXaFlhq2KU2WltrrCgmivzOKZSeWZsKQAAAAH2m3NPAA")
+        self.SESSION1 = getenv("SESSION", "AQIRnGIAKeeIVrdIJuk-TAYxeajRMRbx9U5L7QzR1GV63k3o-UD1xJ8DxM5Vk8uP0TZPumpEo4TOGl6UBo9qQiC-Vz_YVHMqeGqHjelmAgQUNXtXbKYNX_pGykPxioYLugf-P5ADAlB2hh8jpRkKnjPeT-WvAcF3MlEugOgt6MpKFMTWkGTLiOdzApH_7dspHjstUtPGyHiApBTau44b3eM_H3VB-oyRg55PYMXu6NB-XgIZnaxPdbd2Klmn91Be5C_xn7zwxXLZhkEIYVITMMQBODdViSTnFZ4NlmRlO_0at7xxND6n1pkKp80R1VVzYHiO_CCAERukYsQR0eOu-1Elb714CgAAAAIYEn9BAA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
