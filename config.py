@@ -9,17 +9,17 @@ class Config:
         self.API_ID = int(getenv("API_ID", "34708578"))
         self.API_HASH = getenv("API_HASH", "d532e5b947d462f858077d614f31f22b")
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN", "8949527149:AAFmjNfGT_SIgvWAREcCLhOFxLPCB_2dXcY")
+        self.BOT_TOKEN = getenv("BOT_TOKEN", "8986039564:AAHGOtou4rRK3LIqlKMX1o1FcWMBbtE9kqs")
         self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Jani_Sanatani_Power:RamRP@jani.elxnxrd.mongodb.net/?appName=Jani")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", "-1002654645615"))
-        self.OWNER_ID = int(getenv("OWNER_ID", "8740084288"))
+        self.LOGGER_ID = int(getenv("LOGGER_ID", "-1001962121217"))
+        self.OWNER_ID = int(getenv("OWNER_ID", "8092368726"))
         
-        self.SESSION1 = getenv("SESSION", "BQC86fAAaX03BgMmTcYaLAkc0Aa6dYiF3CNc29j8QIjtJK-Wt2e-xmG0ZpKCo8Ipzy6wqta0PePYuSmi28_X0hDAD5NDCFC6qwutmV6u3MaKq8pfxT7vbY1qEbr_mNjPq5KdUPUjuMFTjoQLTusUwQvwf5lwuhE0P2lhZfyPlCXocc-CuRrl-jgWUJn0uDizNeyTedls9VxrgRsm3LtwOrSRDJhD3uYaEqncD1LhnO4UyfZgHO5ZrOqd5JUiGUrYbH_tqK0PLCdmInFyFwyM_lSlEX7a8htGtxb_BwojEkIo9VrtIBCVtkUynYsTEN2xsmHvbrKIiYUvQ4ETNDAOgstVUE_1jQAAAAIOLarHAA")
+        self.SESSION1 = getenv("SESSION", "BQIRnGIAaiLPqb2nU3ROlOxKedRySKq2FfEZ_ZsYLhFHCcvPahIztT_hXHfP47irz_NnpiS1r4Ryx6qbAawGYdoU0PYReNpdGqe9vtdz0uju6-rKpgrD-y8CgMYKPSENKtEYPDQOZuHtnzC6vRriddVVbNDMGaQ9qj1l9gZdHUPQjMqvbCdGs0lxI59L5MEvToXVFu5va2p3OadQ7z4gU1iif-LsGkiz-LRFh9n0cxpAXfi3olDQAK6L37lXykCFz9KOwAGLafv_Vca9B9S4gMI4goloXchSZ6yWh8HDU0c7X8E6eJUJmJkk9KHY6qqnZPt5eFLYm7uyi-hYTOkhMWiSZ3Lz-wAAAAIEfEdeAA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/anjalixupdate")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Jani_Ki_Jaanu")
         self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+xnUCDYVIAONlMzNl")
 
         self.AUTO_END: bool = getenv("AUTO_END", False)
