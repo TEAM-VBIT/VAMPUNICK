@@ -192,7 +192,7 @@ class Inline:
                     self.ikb(text=lang["aloneowner"], user_id=config.OWNER_ID),
                     self.ikb(
                         text=lang["source"],
-                        url="https://t.me/Power_of_Jani"
+                        url="https://t.me/llNICK_UPDATESll"
                     )
                 ]
             ]
